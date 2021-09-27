@@ -21,7 +21,7 @@ Gem::Specification.new do |gem|
   gem.required_ruby_version = '>= 1.9.3'
 
   gem.add_dependency "oauth2",  "~> 1.0"
-  gem.add_dependency "hashie",  "~> 3.2"
+  gem.add_dependency "hashie",  "~> 4.0"
   gem.add_dependency "faraday", "~> 1.0"
   gem.add_dependency 'mime-types', '>= 1.16'
 
@@ -32,7 +32,7 @@ Gem::Specification.new do |gem|
   # Extra gems for GitHub flavored MarkDown in YARD
   gem.add_development_dependency "yard"
   gem.add_development_dependency "redcarpet"
-  gem.add_development_dependency "github-markdown"
+  # gem.add_development_dependency "github-markdown"
 
   # We use VCR to mock LinkedIn API calls
   gem.add_development_dependency "vcr"
